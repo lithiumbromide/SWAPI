@@ -69,7 +69,7 @@ Prefix every command with the Python launcher and `<skill-dir>/scripts/swapi.py`
 - `doc SYMBOL [--full] [--section S,...]`: lean entry (parameters, return value, Remarks, example titles) and its source path; `--full` fetches the complete Markdown when reachable.
 - `topic QUERY` or `topic --path P`: Getting Started, Macros, Bitmasks, Dictionaries and Release Notes topics.
 - `examples QUERY [--lang vba,csharp,vbnet,js] [--symbol SYMBOL]` and `example PATH_OR_TITLE`: find and print the shipped examples, all bundled.
-- `check FILE [--flavor vba,csharp,vbnet] [--target RELEASE]`: reports obsolete members with their replacement, near-miss names and members newer than the target; exit 1 when it finds anything.
+- `check FILE [--flavor vba,csharp,vbnet] [--target RELEASE]`: reports obsolete members with their replacement, near-miss names, members newer than the target and out-parameter methods called with empty parentheses; exit 1 when it finds anything.
 - `changes --since RELEASE`: members introduced in that release or later, grouped by interface.
 
 Exit codes: 0 found or clean; 1 not found or findings (up to five suggestions are printed); 2 usage error; 3 full-text fetch failed (the lean entry is still printed); 4 bundled data missing or corrupt (the regeneration command is printed).
@@ -79,6 +79,7 @@ Exit codes: 0 found or clean; 1 not found or findings (up to five suggestions ar
 - `since` is the first release that has the member. `V1R1.0` to `V1R6.0` are the releases before DraftSight 2016 SP1 and sort before every dated release; `--target` accepts `V1R5.0`, `2019` or `2024 SP2`. A blank `since` means the help states none.
 - `OBSOLETE -> A -> current B` lists the replacement chain; write B unless the target release predates it.
 - Return types print as the class names you declare (`Document`, `Circle`, `SketchManager`). VBA prefixes them with the library (`DraftSight.Document`); `check` and `sig --vba` print VBA names without the leading `I`. There is no separate VBA syntax: translate `object` to `Variant`, `int` to `Long`, `out` to a ByRef variable.
+- A signature such as `void IsReadOnly(out bool ReadOnly)` or `void GetCenter(out double X, out double Y, out double Z)` returns its values only through out parameters; about 190 getters look like this. Pass variables (`dsDoc.IsReadOnly readOnly` in VBA, `out bool readOnly` in C#) and never use the call as a value, because `If dsDoc.IsReadOnly() Then` fails to compile or run.
 - The `markdown/...` path in each row is the citation for the answer.
 ## Correctness checklist
 Each rule is expanded, with the lookup that verifies it, in [correctness-rules.md](references/correctness-rules.md).

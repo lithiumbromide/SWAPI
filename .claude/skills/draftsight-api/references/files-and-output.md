@@ -10,6 +10,7 @@ Opening, creating, saving and closing drawings, batch runs, export to PDF, SVG a
 ## Save
 - `IDocument.Save()` returns `dsDocumentSaveError_e`.
 - `IDocument.SaveAs2(Name, dsDocumentSaveAsOption_e, Overwrite, out dsDocumentSaveError_e)`: DWG members are `dsDocumentSaveAs_R12_DWG` to `dsDocumentSaveAs_R2018_DWG`, DXF members end in `_ASCII_DXF` or `_BINARY_DXF`, templates use `dsDocumentSaveAs_TEMPLATE_DWT`. The help does not say which format `dsDocumentSaveAs_Default` writes, so name the format explicitly. Run `swapi.py enum dsDocumentSaveAsOption_e` for the full list.
+- "Save a copy": the help does not say whether the open document refers to the new file after `SaveAs2`, as it does after Save As in the UI, so tell the user that the drawing left open may be the copy. `IDocument.WriteBlockByAllEntities(Units, Destination)` writes the whole drawing to another file without touching the open one, but it takes no format argument (it corresponds to the `_EXPORTDRAWING` command), so use `SaveAs2` when the user names a DWG or DXF version.
 - Write part of a drawing to its own file: `IDocument.WriteBlockByName`, `WriteBlockBySpecifiedEntities`, `WriteBlockByAllEntities` (2017 SP2).
 - Purge and audit: `IDocument.Clean`, `IDocument.ErrorCheck`.
 ## Batch runs
