@@ -32,7 +32,7 @@ new EdmVault5() (stand-alone, then LoginAuto) | poCmd.mpoVault (add-ins and task
   GetFileFromPath(path, out folder) | GetObject(EdmObjectType.EdmObject_File, id) -> IEdmFile5..IEdmFile18
     LockFile, UnlockFile, UndoLockFile, GetFileCopy, CurrentState, CurrentRevision, GetConfigurations, GetReferenceTree
     IEdmFile7.GetComputedBOM, IEdmFile13.ChangeState3
-    GetEnumeratorVariable -> IEdmEnumeratorVariable5..10: GetVar, SetVar, Flush, IEdmEnumeratorVariable8.CloseFile
+    GetEnumeratorVariable -> IEdmEnumeratorVariable5..10: IEdmEnumeratorVariable10.GetVar2, SetVar, Flush, IEdmEnumeratorVariable8.CloseFile
   GetFolderFromPath | RootFolder -> IEdmFolder5..IEdmFolder13: GetFirstFilePosition/GetNextFile, GetFirstSubFolderPosition/GetNextSubFolder (IEdmPos5.IsNull)
   CreateUtility(EdmUtility.EdmUtil_*) -> IEdmBatchGet, IEdmBatchUnlock, IEdmBatchUpdate2, IEdmBatchChangeState, IEdmUserMgr5, IEdmWorkflowMgr6, IEdmSearch5
   CreateSearch2 -> IEdmSearch5..IEdmSearch10 -> IEdmSearchResult5
@@ -44,18 +44,20 @@ For anything else run `swapi.py members INTERFACE` on the object you hold.
 ## Workflow
 1. Classify the deliverable and target version (Start).
 2. Plan the call chain on the spine before looking anything up, so lookups confirm a plan instead of replacing it.
-3. Look up every member you will call with `find` or `sig`; for numbered families run `members IEdmVault --family` (likewise `IEdmFile`, `IEdmFolder`, `IEdmEnumeratorVariable`, `IEdmSearch`) to see which interface declares each member and therefore which cast to write; follow `OBSOLETE ->` chains to the current member and compare `since` with the target version.
+3. Look up every member you will call with `find` or `sig`, several names per `sig` call (`sig IEdmFile5.LockFile IEdmEnumeratorVariable5.SetVar IEdmEnumeratorVariable10.GetVar2`), because each row already gives the signature, `since` and citation path; for numbered families run `members IEdmVault --family` (likewise `IEdmFile`, `IEdmFolder`, `IEdmEnumeratorVariable`, `IEdmSearch`) to see which interface declares each member and therefore which cast to write; follow `OBSOLETE ->` chains to the current member and compare `since` with the target version.
 4. For hooks run `members EdmCmd` and `members EdmCmdData` for the struct fields and `doc EdmCmdData` for what each field means in your hook; run `enum` for every enum parameter or flag (`enum EdmCmdType`, `enum EdmMenuFlags`, `enum EdmTaskFlag`).
-5. Run `doc` on members with out parameters, arrays, flags or prerequisites (logged in, checked out, checked in), because the Remarks list the return codes and preconditions.
+5. Run `doc` on members with out parameters, arrays, flags or prerequisites (logged in, checked out, checked in), because the Remarks list the return codes and preconditions. The lean entry already holds the Remarks and return codes; add `--full` only when it lacks a detail you need.
 6. Run `examples` with `--symbol` for the central members before writing, because PDM has no macro recorder and the official examples are the only tested call sequences; open one with `example`.
 7. Copy the template, replace the GUID placeholder `00000000-0000-0000-0000-000000000000` with a freshly generated GUID, rename namespace, class and `AssemblyName`, and set `PdmInstallDir` (and `SolidWorksApiRedist` for the task template) in the project when the interop assemblies live elsewhere.
-8. Run `check FILE --target YEAR` (the PDM release from Start step 2; add `--flavor vbnet` for VB.NET) on every file you wrote or were given and fix each finding, because members newer than the target are reported only when `--target` is given.
+8. Run `check FILE --target YEAR` (the PDM release from Start step 2; add `--flavor vbnet` for VB.NET) on every file you wrote or were given and fix each finding, because members newer than the target are reported only when `--target` is given. It covers obsolete and too-new members for the whole file, so rely on it instead of extra per-member lookups.
 9. Answer in the format below.
+
+`check` only knows the API of the skill it belongs to: this skill's knows `IEdm*` and Workgroup PDM, solidworks-api's knows SOLIDWORKS and Document Manager. On a file that calls both, such as a task add-in that reads properties with Document Manager, run both skills' `check` and act only on each one's findings for its own API, because solidworks-api reports PDM members as unknown names (`IEdmVault5.GetObject` as a near miss of `GetObjectId`) and this skill does not verify Document Manager calls at all.
 ## Commands used by this workflow
 All commands are `<skill-dir>/scripts/swapi.py COMMAND`; add `--module epdmapi` where a name also exists in the desktop API.
 - `where`: data version, mode, roots and the `hint=` to follow.
 - `find QUERY [--module M] [--kind m,p,e,i,s,enum,topic,example] [--exact]`: ranked symbol search.
-- `sig SYMBOL`: signature of `Interface.Member` or of a bare member across interfaces.
+- `sig SYMBOL [SYMBOL ...]`: signature, `since` and citation path of each `Interface.Member`, or of a bare member across interfaces; exit 1 when any name is missing.
 - `members INTERFACE [--grep TEXT] [--obsolete] [--family]`: members, struct fields, and with `--family` the declaring interface of each member.
 - `enum NAME [--grep TEXT] [--value N]`: enum members with values, the enum that contains a member name, or the names behind an integer.
 - `doc SYMBOL [--full] [--section S,...]`: parameters, return value, Remarks and examples of one member; `--full` fetches the whole Markdown topic.
@@ -80,12 +82,17 @@ All other options: `swapi.py --help`. Without Python, read single entries with `
 - Filter `EdmCmd_PreState` by destination state or transition, because the hook fires for every transition of every workflow ([hooks](references/addins.md#hooks-and-cancellation)).
 - Show user interface only when `poCmd.mbSilentMode` is 0 and never inside `EdmCmd_TaskRun`, because background operations and task hosts have no one to click the dialog ([tasks](references/tasks.md#work-inside-taskrun)).
 - Check a file out before `SetVar`, then `CloseFile(true)` or `Flush`, then check it in, because `SetVar` on a checked-in file fails and unflushed values are lost ([card variables](references/vault-programming.md#card-variables)).
+- Verify every card write and count a file whose value did not arrive as failed: look each variable up once with `IEdmVariableMgr5.GetVariable` (null for unknown names) and read the value back with `GetVar2` after `Flush`, because `SetVar` is `void` in .NET and its S_FALSE result (variable not on the card while `bOnlyIfPartOfCard` is true) raises no exception ([card variables](references/vault-programming.md#card-variables)).
+- Convert each value to the variable's `IEdmVariable5.VariableType` before `SetVar` (custom property text to `DateTime` for `EdmVarType_Date`, to numbers for `EdmVarType_Int` and `EdmVarType_Float`), and fail the file when the text does not parse, because custom properties are free text ([card variables](references/vault-programming.md#card-variables)).
 - Close every file enumerator (`IEdmEnumeratorVariable8.CloseFile`), also after reads, because it keeps the file open and later operations hit sharing violations ([card variables](references/vault-programming.md#card-variables)).
-- Use `"@"` for file-level card values of files with configurations and `""` for folders and files without, because `GetVar` returns false for the wrong one ([card variables](references/vault-programming.md#card-variables)).
-- Treat `false`, `null`, empty and whitespace values as missing, because `GetVar` signals a missing value in all of these ways ([card variables](references/vault-programming.md#card-variables)).
+- Read file card values with `IEdmEnumeratorVariable10.GetVar2(name, configuration, folderId, out value)` (2015 SP4) when the oldest client has it, passing the parent folder ID, because the help marks `GetVar` as superseded by it and a file shared to several folders needs the folder; keep `GetVar` for folder cards and for the open card in card hooks, where `check` still reports it as obsolete and that finding is expected ([card variables](references/vault-programming.md#card-variables)).
+- Use `"@"` for file-level card values of files with configurations and `""` for folders and files without, because `GetVar2` and `GetVar` return false for the wrong one ([card variables](references/vault-programming.md#card-variables)).
+- Treat `false`, `null`, empty and whitespace values as missing, because `GetVar2` and `GetVar` signal a missing value in all of these ways ([card variables](references/vault-programming.md#card-variables)).
+- In a task add-in that reads SOLIDWORKS files, state in the answer whether it uses Document Manager or SOLIDWORKS and what that costs the host: Document Manager needs a license key for the task's account but no SOLIDWORKS session, SOLIDWORKS needs a licensed desktop session on every host and opens each model, because the task host owner has to provide one of them ([tasks](references/tasks.md#work-inside-taskrun)).
 - Use the batch interfaces (`IEdmBatchGet`, `IEdmBatchUnlock`, `IEdmBatchUpdate2`, `IEdmBatchChangeState`) for many files, because the API documents them as more efficient than per-file calls ([batch updates](references/vault-programming.md#batch-updates)).
 - Change states with `IEdmFile13.ChangeState3` and IDs on checked-in files, because the older methods are obsolete and duplicate state names make PDM pick a transition at random ([workflow states](references/vault-programming.md#workflow-states)).
 - Set `Edmstok_AllVersions` explicitly on every search, because leaving it unset gives unexpected results ([search](references/vault-programming.md#search)).
+- In C# filter a search by state with `set_State(ref value)` or `SetToken(EdmSearchToken.Edmstok_StateName, name)`, never `search.State = name`, because the interop's setter takes `ref object` and the assignment fails with CS1545 although the help prints `{get; set;}` ([search](references/vault-programming.md#search)).
 - Return `EdmRefreshFlag` bits in `poCmd.mlEdmRefreshFlags` after a menu command changes files, because File Explorer otherwise shows a stale listing ([EdmCmd fields](references/addins.md#edmcmd-fields)).
 - Catch `COMException` and decode `ErrorCode` with `EdmResultErrorCodes_e` and `IEdmVault5.GetErrorString`, because raw HRESULTs tell the user nothing ([errors](references/vault-programming.md#errors-and-return-codes)).
 - Make exactly one class COM-visible with a new GUID and keep the assembly COM-invisible, because the Administration tool otherwise loads the wrong class or collides with a copied sample ([troubleshooting](references/addins.md#troubleshooting)).
@@ -98,7 +105,7 @@ Work in this order and report each finding with its cause:
 2. Hook choice: a refusal attempted in a Post hook, or a hook registered in `AddHook` that the `OnCmd` branch never tests (or the reverse).
 3. Field meanings: compare every `EdmCmdData` field the code reads with `doc EdmCmdData` for that hook.
 4. Cancellation and messages: `mbCancel` set where it has effect, messages suppressed in silent mode.
-5. Card variables: configuration argument, null and empty handling, check-out, `CloseFile`.
+5. Card variables: configuration argument, null and empty handling, check-out, writes that are never read back, `CloseFile`.
 6. Casts and versions: interface numbers versus the client release; decode any `COMException` code.
 7. Deployment: the client still runs the previous DLL until it restarts; reproduce with Debug Add-ins.
 ## References
@@ -111,5 +118,5 @@ Work in this order and report each finding with its cause:
 - Complete code in fenced blocks labelled with file names (`AddIn.cs`, `PdmAddIn.csproj`), in the user's language and style; VB.NET users get VB.NET translated from the C# templates.
 - Build and deployment steps for the deliverable: Visual Studio build, Administration tool New Add-in with the DLL and `EPDM.Interop.epdm.dll`, Debug Add-ins during development, client restart, and for tasks Task Host Configuration and New Task.
 - An "API references" list of the `markdown/...` paths printed by `doc` and `sig` for the members used.
-- Assumptions stated explicitly: PDM version, vault view name, card variable, state and transition names, configuration `@`, the account a task runs under.
+- Assumptions stated explicitly: PDM version, vault view name, card variable names and types, state and transition names, configuration `@`, the account a task runs under, and for tasks that read SOLIDWORKS files the Document Manager or SOLIDWORKS choice with its trade-off.
 - Enum member names instead of numbers, and a note when only bundled lean documentation was available.

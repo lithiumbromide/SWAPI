@@ -880,11 +880,19 @@ def resolve_rows(st, symbol):
                         rows.append(r)
     return rows
 def cmd_sig(ctx, a, o):
+    code = 0
+    for symbol in a.symbol:
+        code = max(code, sig_one(ctx, a, o, symbol))
+    return code
+def sig_one(ctx, a, o, symbol):
     st = ctx.store
-    rows = resolve_rows(st, a.symbol)
+    rows = resolve_rows(st, symbol)
     if not rows:
-        o.add(f"no member {a.symbol}")
-        did_you_mean(o, st, a.symbol)
+        o.add(f"no member {symbol}")
+        s = suggestions(st, symbol)
+        if s:
+            o.add("did you mean: " + ", ".join(s))
+        o.rec(type="missing", symbol=symbol, suggestions=s)
         return 1
     net = []
     seen = set()
@@ -900,22 +908,24 @@ def cmd_sig(ctx, a, o):
         since, status, summary = st.eff(r)
         tail = ("  since " + since if since else "") + ("  " + st.chain_text(r, a.vba and not a.both) if status.startswith("obsolete") else "")
         vrow = r if st.is_vba(r.iface.module) else st.twin_row(r)
+        def cite(x):
+            return "" if status.startswith("obsolete") else f"  markdown/{st.row_path(x)}"
         if a.vba and not a.both:
             if vrow is not None:
-                o.add(f"{vrow.sym}  {vrow.sig or '(no signature)'}{tail}")
+                o.add(f"{vrow.sym}  {vrow.sig or '(no signature)'}{tail}{cite(vrow)}")
             else:
-                o.add(f"{r.sym}  (no VBA twin)  {r.sig}{tail}")
+                o.add(f"{r.sym}  (no VBA twin)  {r.sig}{tail}{cite(r)}")
         else:
-            o.add(f"{r.sym}  {r.sig or '(no signature)'}{tail}")
+            o.add(f"{r.sym}  {r.sig or '(no signature)'}{tail}{cite(r)}")
             if a.both and vrow is not None and vrow is not r:
-                o.add(f"{vrow.sym}  {vrow.sig or '(no signature)'}")
+                o.add(f"{vrow.sym}  {vrow.sig or '(no signature)'}{cite(vrow)}")
         rec = row_rec(st, r)
         if vrow is not None:
             rec["vba_symbol"] = vrow.sym
             rec["vba_sig"] = vrow.sig
         o.rec(**rec)
     if len(net) > lim:
-        o.add(f"... {len(net) - lim} more interfaces declare {a.symbol}")
+        o.add(f"... {len(net) - lim} more interfaces declare {symbol}")
     return 0
 def family_of(st, name):
     st.load_maps()
@@ -1350,6 +1360,8 @@ def cmd_doc(ctx, a, o):
             return 0
         lean_note = "note=full text unavailable (" + ("; ".join(n for n in notes if n) or "no source") + "); showing the bundled lean entry"
     lines = list(head)
+    if lean_note:
+        lines.append(lean_note)
     blk = st.block(f"docs/{module}.txt", sym, lines=True)
     parts = parse_lean(blk[1]) if blk else []
     def want(tag):
@@ -1367,8 +1379,6 @@ def cmd_doc(ctx, a, o):
             lines.append(f"{tag}: {text}")
     if ex_line and want("E"):
         lines.append("E: " + ex_line)
-    if lean_note:
-        lines.append(lean_note)
     o.add(cap_chars("\n".join(lines), chars_of(a), "use --section or --full"))
     rec["lean"] = {t: x for t, x in parts}
     rec["examples"] = [e["path"] for e in exs]
@@ -1783,9 +1793,9 @@ class Checker:
         code = strip_code(text, self.flavor)
         blank_line = lambda m: " " * len(m.group(0))
         if self.flavor == "csharp":
-            code = re.sub(r"(?m)^\s*(?:using|namespace)\b[^\n]*", blank_line, code)
+            code = re.sub(r"(?m)^[ \t]*(?:using|namespace)\b[^\n]*", blank_line, code)
         else:
-            code = re.sub(r"(?im)^\s*Imports\b[^\n]*", blank_line, code)
+            code = re.sub(r"(?im)^[ \t]*Imports\b[^\n]*", blank_line, code)
         found = self.declarations(code)
         findings = []
         seen = set()
@@ -1953,7 +1963,7 @@ def cmd_where(ctx, a, o):
             return 4
     mode = ctx.mode()
     langs = ",".join(mf.get("bundled_example_langs", [])) or "no"
-    hints = {"local": "full docs and all examples available from the local checkout; prefer doc --full for Remarks", "git": "full docs and all examples available through git; prefer doc --full for Remarks", "remote": "full docs and all examples fetched from GitHub on demand; prefer doc --full for Remarks", "bundled": f"offline: lean docs and {langs} examples are bundled; say so if a needed detail is missing"}
+    hints = {"local": "full docs and all examples available from the local checkout; doc already prints the Remarks, add --full only when a detail is missing", "git": "full docs and all examples available through git; doc already prints the Remarks, add --full only when a detail is missing", "remote": "full docs and all examples fetched from GitHub on demand; doc already prints the Remarks, add --full only when a detail is missing", "bundled": f"offline: lean docs and {langs} examples are bundled; say so if a needed detail is missing"}
     o.add(f"mode={mode}" + (" verify=ok" if getattr(a, "verify", False) else ""))
     o.add(f"hint={hints[mode]}")
     o.rec(skill=mf.get("skill"), product=st.product, sw_version=mf.get("sw_version"), mode=mode, root=str(ctx.root) if ctx.root else None, data=str(st.dir), offline=ctx.offline, repo=ctx.repo, ref=ctx.ref, bundled_example_langs=mf.get("bundled_example_langs", []))
@@ -1983,8 +1993,8 @@ def build_parser():
     p.add_argument("--kind", help="Comma-separated kinds: m,p,e,f (members), i,c,s,o (interfaces), enum, topic, example.")
     p.add_argument("--exact", action="store_true", help="Only exact symbol or member name matches.")
     p.set_defaults(func=cmd_find)
-    p = sp("sig", "Print signatures of Interface.Member, or of a bare member on every interface that declares it.")
-    p.add_argument("symbol", help="Interface.Member (VBA names such as ModelDocExtension.SaveAs3 work) or a bare member name.")
+    p = sp("sig", "Print signatures of one or more Interface.Member names, or of a bare member on every interface that declares it; exit 1 when any name is not found.")
+    p.add_argument("symbol", nargs="+", help="Interface.Member (VBA names such as ModelDocExtension.SaveAs3 work) or a bare member name; give several to look them up in one call.")
     p.add_argument("--vba", action="store_true", help="Print the VBA signature instead of C#.")
     p.add_argument("--both", action="store_true", help="Print both C# and VBA signatures.")
     p.set_defaults(func=cmd_sig)

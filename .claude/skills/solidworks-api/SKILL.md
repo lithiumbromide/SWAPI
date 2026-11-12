@@ -33,15 +33,17 @@ For anything off the spine run `swapi.py path FROM TO` (for example `path ISldWo
 ## Workflow
 1. Classify the deliverable with the [routing table](#routing) and open the template and reference it names.
 2. Plan the call chain from the spine; use `path` for the gaps.
-3. Run `sig` (or `find` when unsure of the name) for every member you will call. Follow any `OBSOLETE ->` chain to the current member and compare `since` with the target release.
+3. Run `sig` (or `find` when unsure of the name) for every member you will call, several names per call (`sig IModelDocExtension.SaveAs3 IModelDoc2.ShowConfiguration2 IModelDoc2.GetConfigurationNames`), because each row already gives the signature, `since`, any `OBSOLETE ->` chain and the citation path. Follow every chain to the current member and compare `since` with the target release.
 4. Run `enum` for every parameter annotated with an enum, and `seltype` for every `SelectByID2` type string.
-5. Run `doc` for members with out parameters, arrays, selection or document-state prerequisites, and read their Remarks before coding.
+5. Run `doc` for members with out parameters, arrays, selection or document-state prerequisites, and read their Remarks before coding. The lean entry already holds the Remarks; add `--full` only when it lacks a detail you need, because full documents cost many times the tokens.
 6. When the call pattern is still unclear, find a shipped example with `examples --symbol Interface.Member` and read it with `example`.
 7. Copy the template and write the code, applying the [correctness checklist](#correctness-checklist).
-8. Run `check` on every file you wrote, with `--target` set to the target release, and fix all findings.
+8. Run `check` on every file you wrote, with `--target` set to the target release, and fix all findings. It reports obsolete, near-miss and too-new members for the whole file at once, so rely on it instead of extra per-member lookups such as `members --obsolete` or `changes`.
 9. Answer in the [answer format](#answer-format).
 
 Keep the lookups visible in the transcript, because they are the evidence that every member was verified.
+
+Run `check` with the skill that owns the API: this skill knows the desktop, Document Manager and add-on APIs, solidworks-pdm-api knows `IEdm*`. On a file that calls both, run each skill's `check` and act only on findings for that skill's own members, because each reports the other API's members as unknown names (this skill flags `IEdmVault5.GetObject` as a near miss of `GetObjectId`).
 ## Routing
 | Deliverable | Modules | Template | Read |
 | --- | --- | --- | --- |
@@ -62,7 +64,7 @@ The language decides the flavor: VBA uses the `*vb6` modules with early binding 
 Prefix every command with the Python launcher and `<skill-dir>/scripts/swapi.py`. Run `swapi.py --help` for every option.
 - `where`: data version, mode, roots and a `hint=` line.
 - `find QUERY [--module M] [--kind m,p,e,i,s,enum,topic,example] [--exact]`: ranked symbol search; .NET and VBA twins are collapsed.
-- `sig SYMBOL [--vba] [--both]`: signature of `Interface.Member`, or of a bare member across interfaces.
+- `sig SYMBOL [SYMBOL ...] [--vba] [--both]`: signature, `since` and citation path of each `Interface.Member`, or of a bare member across interfaces; exit 1 when any name is missing.
 - `members INTERFACE [--grep TEXT] [--obsolete] [--family]`: members of an interface; `--family` merges numbered families (`ISwDMDocument` to `ISwDMDocument29`) and shows the declaring interface.
 - `path FROM TO [--depth 4]`: shortest accessor chains from one interface to another.
 - `enum NAME [--grep TEXT]`: enum members and values; also reverse lookup from a member name.
@@ -97,6 +99,7 @@ Each rule is expanded, with the lookup that verifies it, in [correctness-rules.m
 - In VBA use `Option Explicit`, early binding and `Long` instead of `Integer`, because 16-bit integers overflow and late binding hides typos until run time ([details](references/correctness-rules.md#vba-declarations)).
 - Release per-file COM objects in standalone .NET loops, but never release shared objects inside an add-in mid-session, because the first leaks a long batch and the second breaks the session ([details](references/correctness-rules.md#com-object-lifetime)).
 - For batch work suspend graphics and tree updates, open silently and read-only, and close every document you open, because redraws, dialogs and open documents dominate run time ([details](references/correctness-rules.md#batch-performance)).
+- Do the work for each configuration, file or component in a helper with its own error handling that records the failure and returns, then report every failed item at the end, because otherwise one COM error or False return stops the loop and the remaining items are silently skipped ([details](references/correctness-rules.md#per-item-error-handling)).
 ## Debugging existing code
 Work through these in order, because each step removes the most common cause of the next symptom:
 1. Run `check FILE --target YEAR` and replace obsolete, near-miss and too-new members.

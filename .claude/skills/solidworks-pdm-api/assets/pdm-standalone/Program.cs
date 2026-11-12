@@ -32,7 +32,7 @@ namespace PdmTool
                             exitCode = 1;
                             continue;
                         }
-                        Console.WriteLine(string.Join("\t", args[i], file.CurrentRevision, file.CurrentState.Name, ReadVariable(file, args[1])));
+                        Console.WriteLine(string.Join("\t", args[i], file.CurrentRevision, file.CurrentState.Name, ReadVariable(file, folder.ID, args[1])));
                     }
                     catch (COMException ex)
                     {
@@ -48,15 +48,15 @@ namespace PdmTool
                 return 1;
             }
         }
-        private static string ReadVariable(IEdmFile5 file, string name)
+        private static string ReadVariable(IEdmFile5 file, int folderId, string name)
         {
-            var variables = (IEdmEnumeratorVariable8)file.GetEnumeratorVariable();
+            var variables = (IEdmEnumeratorVariable10)file.GetEnumeratorVariable();
             try
             {
                 object value;
-                if (!variables.GetVar(name, "@", out value))
+                if (!variables.GetVar2(name, "@", folderId, out value))
                 {
-                    variables.GetVar(name, "", out value);
+                    variables.GetVar2(name, "", folderId, out value);
                 }
                 return Convert.ToString(value);
             }
