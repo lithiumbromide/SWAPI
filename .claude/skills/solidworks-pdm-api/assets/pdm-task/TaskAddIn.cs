@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Threading;
@@ -66,6 +67,7 @@ namespace PdmTask
             {
                 instance.SetStatus(EdmTaskStatus.EdmTaskStat_Running);
                 var documents = OpenDocumentManager();
+                var types = ResolveVariables(vault);
                 instance.SetProgressRange(items.Length, 0, "Starting");
                 var failures = new List<string>();
                 for (var i = 0; i < items.Length; i++)
@@ -79,7 +81,7 @@ namespace PdmTask
                     {
                         try
                         {
-                            ProcessFile(vault, documents, item);
+                            ProcessFile(vault, documents, types, item);
                         }
                         catch (Exception ex)
                         {
@@ -139,23 +141,92 @@ namespace PdmTask
             }
             return application;
         }
-        private static void ProcessFile(IEdmVault5 vault, ISwDMApplication documents, EdmCmdData item)
+        private static IDictionary<string, EdmVariableType> ResolveVariables(IEdmVault5 vault)
+        {
+            var manager = (IEdmVariableMgr5)vault;
+            var types = new Dictionary<string, EdmVariableType>();
+            foreach (var name in PropertyToVariable.Values)
+            {
+                object key = name;
+                var variable = manager.GetVariable(ref key);
+                if (variable == null)
+                {
+                    throw new InvalidOperationException("card variable " + name + " does not exist in this vault");
+                }
+                types[name] = variable.VariableType;
+            }
+            return types;
+        }
+        private static object ToCardValue(object raw, EdmVariableType type, string variable)
+        {
+            var text = Convert.ToString(raw, CultureInfo.CurrentCulture).Trim();
+            if (text.Length == 0)
+            {
+                return text;
+            }
+            switch (type)
+            {
+                case EdmVariableType.EdmVarType_Date:
+                    DateTime date;
+                    if (DateTime.TryParse(text, CultureInfo.CurrentCulture, DateTimeStyles.None, out date) || DateTime.TryParse(text, CultureInfo.InvariantCulture, DateTimeStyles.None, out date))
+                    {
+                        return date.Date;
+                    }
+                    break;
+                case EdmVariableType.EdmVarType_Int:
+                    int number;
+                    if (int.TryParse(text, NumberStyles.Integer, CultureInfo.CurrentCulture, out number))
+                    {
+                        return number;
+                    }
+                    break;
+                case EdmVariableType.EdmVarType_Float:
+                    double real;
+                    if (double.TryParse(text, NumberStyles.Float, CultureInfo.CurrentCulture, out real))
+                    {
+                        return real;
+                    }
+                    break;
+                default:
+                    return text;
+            }
+            throw new InvalidOperationException("card variable " + variable + " is " + type + " but the custom property holds '" + text + "'");
+        }
+        private static void ProcessFile(IEdmVault5 vault, ISwDMApplication documents, IDictionary<string, EdmVariableType> types, EdmCmdData item)
         {
             var file = (IEdmFile5)vault.GetObject(EdmObjectType.EdmObject_File, item.mlObjectID1);
             object version = 0;
             object folder = item.mlObjectID2;
             file.GetFileCopy(0, ref version, ref folder, (int)EdmGetFlag.EdmGet_Simple, "");
-            var values = ReadValues(documents, file.GetLocalPath(item.mlObjectID2));
+            var values = new Dictionary<string, object>();
+            foreach (var pair in ReadValues(documents, file.GetLocalPath(item.mlObjectID2)))
+            {
+                values[pair.Key] = ToCardValue(pair.Value, types[pair.Key], pair.Key);
+            }
             var configuration = FileLevelConfiguration(file);
             file.LockFile(item.mlObjectID2, 0, (int)EdmLockFlag.EdmLock_Simple);
-            IEdmEnumeratorVariable8 variables = null;
+            IEdmEnumeratorVariable10 variables = null;
             try
             {
-                variables = (IEdmEnumeratorVariable8)file.GetEnumeratorVariable();
+                variables = (IEdmEnumeratorVariable10)file.GetEnumeratorVariable();
                 foreach (var pair in values)
                 {
                     var value = pair.Value;
                     variables.SetVar(pair.Key, configuration, ref value, true);
+                }
+                variables.Flush();
+                var notWritten = new List<string>();
+                foreach (var pair in values)
+                {
+                    object stored;
+                    if (Convert.ToString(pair.Value).Length > 0 && (!variables.GetVar2(pair.Key, configuration, item.mlObjectID2, out stored) || string.IsNullOrWhiteSpace(Convert.ToString(stored))))
+                    {
+                        notWritten.Add(pair.Key);
+                    }
+                }
+                if (notWritten.Count > 0)
+                {
+                    throw new InvalidOperationException("not on the data card of this file, so SetVar wrote nothing: " + string.Join(", ", notWritten));
                 }
                 variables.CloseFile(true);
                 variables = null;

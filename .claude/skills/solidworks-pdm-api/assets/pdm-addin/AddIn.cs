@@ -73,7 +73,7 @@ namespace PdmAddIn
                 {
                     throw new InvalidOperationException("file ID " + item.mlObjectID1 + " not found: " + item.mbsStrData1);
                 }
-                if (string.IsNullOrWhiteSpace(ReadVariable(file, RequiredVariable)))
+                if (string.IsNullOrWhiteSpace(ReadVariable(file, item.mlObjectID2, RequiredVariable)))
                 {
                     missing.Add(item.mbsStrData1);
                 }
@@ -85,15 +85,15 @@ namespace PdmAddIn
             cmd.mbCancel = 1;
             Report(vault, cmd, RequiredVariable + " is empty, transition to " + GuardedState + " refused:" + Environment.NewLine + string.Join(Environment.NewLine, missing));
         }
-        private static string ReadVariable(IEdmFile5 file, string name)
+        private static string ReadVariable(IEdmFile5 file, int folderId, string name)
         {
-            var variables = (IEdmEnumeratorVariable8)file.GetEnumeratorVariable();
+            var variables = (IEdmEnumeratorVariable10)file.GetEnumeratorVariable();
             try
             {
                 object value;
-                if (!variables.GetVar(name, "@", out value))
+                if (!variables.GetVar2(name, "@", folderId, out value))
                 {
-                    variables.GetVar(name, "", out value);
+                    variables.GetVar2(name, "", folderId, out value);
                 }
                 return Convert.ToString(value);
             }
