@@ -62,7 +62,7 @@ The API has one module, `draftsightapi`, for every language: the help prints .NE
 Prefix every command with the Python launcher and `<skill-dir>/scripts/swapi.py`. Run `swapi.py --help` for every option.
 - `where`: data version, mode, roots and a `hint=` line.
 - `find QUERY [--kind m,p,e,i,enum,topic,example] [--exact]`: ranked symbol search.
-- `sig SYMBOL`: signature of `Interface.Member`, or of a bare member across interfaces.
+- `sig SYMBOL [SYMBOL ...]`: signature, `since` and citation path of each `Interface.Member`, or of a bare member across interfaces; exit 1 when any name is missing.
 - `members INTERFACE [--grep TEXT] [--obsolete]`: members of an interface with `since` and summary; event sources are `_IApplicationEvents`, `_IDocumentEvents`, `_ICommandEvents` and the other `_I*Events` names.
 - `path FROM TO [--depth 4]`: shortest accessor chains from one interface to another.
 - `enum NAME [--grep TEXT]`: enum members and values; also reverse lookup from a member name.
