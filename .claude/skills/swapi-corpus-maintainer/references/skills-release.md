@@ -8,7 +8,7 @@
 - [Release](#release)
 - [Sources](#sources)
 ## Layout
-- `.claude/skills/solidworks-api/` and `.claude/skills/solidworks-pdm-api/` are distributable (`metadata.distribute: "true"`); `.claude/skills/swapi-corpus-maintainer/` is repo-local (`"false"`), validated but never zipped.
+- `.claude/skills/solidworks-api/`, `.claude/skills/solidworks-pdm-api/` and `.claude/skills/draftsight-api/` are distributable (`metadata.distribute: "true"`); `.claude/skills/swapi-corpus-maintainer/` is repo-local (`"false"`), validated but never zipped.
 - Hand-written per skill: `SKILL.md`, `references/`, `assets/`, `evals/`. Generated per distributable skill and committed: `data/`, `scripts/swapi.py`, `LICENSE.txt`, `NOTICE.md`, marked `linguist-generated=true` in `.gitattributes`.
 - Single sources: the runtime `scripts/skill_runtime/swapi.py` (with `LICENSE.txt` and `NOTICE.md` beside it) and the configuration `scripts/skill_data.json` (`exclude_modules`, `optional_modules`, `min_modules`, `max_coverage_drop`, `runtime_files`, and per skill `distribute`, `modules`, `map`, `enums`, `docs`, `seltypes`, `topics`, `examples` as module to languages, `budget_mb`). Edit these, never the copies inside the skills.
 ## Build skill data
@@ -18,7 +18,7 @@ python scripts/build_skill_data.py [--markdown markdown] [--index llm_index] [--
 - Reads the corpus once and writes each skill's `data/` and runtime copies; prints at most 15 lines per skill (files, raw and zip estimate, counts, coverage, warnings).
 - It refuses to run on a partial corpus (fewer modules than configured or a mapped module directory missing) and fails on modules not assigned in `scripts/skill_data.json`, budget overflow, a signature coverage drop of more than 5 points against the previous manifest, and too many unresolved obsolete targets. Every module directory must be assigned to a skill or excluded; `swvisualizeapi` and `swvisualizeapiVB6` (case-sensitive) are already assigned to solidworks-api and listed in `optional_modules`, which may be absent from an older corpus.
 - `--previous DIR` (a `data/` folder or a skills folder) diffs the maps against the previous release's data and writes `data/changes.tsv` (`added`, `obsoleted`, `removed`, `changed`); export the previous data first, for example with `git archive <previous tag> .claude/skills` into a temporary folder. Summarize the counts per kind in the pull request.
-- `--ref` sets `source_ref` in `data/manifest.json`, which the runtime uses for remote document URLs: `integration` for development builds, the release tag for releases.
+- `--ref` sets `source_ref` in `data/manifest.json`, which the runtime uses for remote document URLs: keep the default `main` for every committed build, and pass the release tag only for the uncommitted release build in [Release](#release), because `--check` compares against `main` by default.
 - `--profile lean` drops bundled example code; use it only when a host rejects the full zip.
 - `--check` builds into a temporary folder and compares hashes with the committed data, exiting 1 on drift; the optional workflow `.github/workflows/skills.yml` runs it with `package_skills.py --validate-only` on every push.
 ## Validate
@@ -41,9 +41,11 @@ Validates, then zips each distributable skill to `dist/<name>.zip` with the skil
 - Trigger tuning: `run_loop --eval-set evals/trigger-evals.json --skill-path .claude/skills/<name> --model <model id>` once per target model (Opus 5.5 and Fable 5.1); change only the description, rerun both models, and keep the description under 1024 characters.
 - Acceptance: the with-skill run beats the baseline on every expectation group, and trigger accuracy is at least 90% on held-out queries for each model.
 ## Release
-1. Build and evaluate on branch `integration` with `--ref integration`; open the pull request from `integration` to `main`.
-2. After merging, tag the release `skills-sw<year>.<n>` (for example `skills-sw2026.1`) and rebuild with the source pinned to the tag: `python scripts/build_skill_data.py --ref skills-sw2026.1`, then `python scripts/package_skills.py`.
-3. Publish: `gh release create skills-sw2026.1 dist/*.zip dist/SHA256SUMS --title "<title>" --notes-file <notes file>`; the notes state the SOLIDWORKS API version, the zip sizes and that the bundled text is derived documentation (see `NOTICE.md`).
+1. Build and evaluate on a feature branch with the default `--ref main` and merge it into `main` by pull request; release only after every pull request meant for the release has merged.
+2. Tag the merged `main` commit with an annotated tag `skills-<year>.<n>`, where the year is the API release shared by SOLIDWORKS and DraftSight (for example `skills-2026.1`, `skills-2026.2` for a fix release), and push the tag before building, because remote fetches against the tag fail until it exists on GitHub: `git tag -a skills-2026.1 -m "<title>" origin/main`, then `git push origin skills-2026.1`.
+3. From a clean checkout of the tag, rebuild with the source pinned to the tag and package: `python scripts/build_skill_data.py --ref skills-2026.1`, then `python scripts/package_skills.py`. Do not commit the rebuild; restore the committed data with `git checkout -- .claude/skills` after packaging, so the committed manifests keep `source_ref` `main`.
+4. Check each zip unzipped outside any checkout, with `SWAPI_ROOT`, `SWAPI_DATA` and `SWAPI_REF` unset and `SWAPI_CACHE` set to a new empty folder: `python <skill>/scripts/swapi.py where` reports `source=lithiumbromide/SWAPI@skills-2026.1` and `mode=remote`, and `mode=bundled` with `SWAPI_OFFLINE=1`.
+5. Publish: `gh release create skills-2026.1 dist/*.zip dist/SHA256SUMS --verify-tag --title "<title>" --notes-file <notes file>`; the notes state the SOLIDWORKS and DraftSight API versions, the zip sizes and SHA-256 hashes, the API changes since the previous release, and that the bundled text is derived documentation (see `NOTICE.md`). Then download the assets into an empty folder and run `sha256sum -c SHA256SUMS`.
 ## Sources
 - skills design in issue #3, sections 6, 7, 9 and 10
 - `NOTICE.md` and `LICENSE` at the repository root
